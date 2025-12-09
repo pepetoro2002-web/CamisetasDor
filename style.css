@@ -420,3 +420,167 @@ p {
     opacity: 1;
     transform: translateY(0);
 }
+
+/* ============================
+   RESPONSIVE — TABLET
+============================ */
+@media (max-width: 1024px) {
+
+    header {
+        flex-direction: column;
+        height: auto;
+        padding-bottom: 10px;
+    }
+
+    .Botones {
+        padding-top: 10px;
+    }
+
+    .Camisetas,
+    .Descripciones {
+        gap: 40px;
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .Camisetas img {
+        height: 200px;
+    }
+
+    .Precio {
+        padding-left: 80px;
+    }
+
+    .carrito-grande {
+        width: 80%;
+    }
+        .CamisetasPro {
+        height: auto;
+        justify-content: center;
+        padding-right: 0;
+        gap: 40px;
+        flex-wrap: wrap;
+    }
+
+    .DescripcionesPro {
+        justify-content: center;
+        padding-right: 0;
+        gap: 40px;
+        flex-wrap: wrap;
+    }
+
+    .Podio {
+        margin-right: 0;
+    }
+}
+
+/* ============================
+   RESPONSIVE — CELULAR
+============================ */
+@media (max-width: 768px) {
+
+    /* HEADER */
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header img {
+        width: 80px;
+    }
+
+    .Botones ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    /* INDEX */
+    .Camisetas {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        gap: 20px;
+    }
+
+    .Camisetas img {
+        width: 70%;
+        height: auto;
+    }
+
+    .Descripciones {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .Descripcion {
+        width: 80%;
+    }
+
+    .Precio {
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    /* PRODUCTOS */
+        .CamisetasPro {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        gap: 20px;
+        padding-right: 0;
+    }
+
+    .CamisetasPro img {
+        width: 70%;
+        max-width: 280px;
+        height: auto;
+    }
+
+    .DescripcionesPro {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding-right: 0;
+    }
+
+    .DescripcionPro {
+        width: 85%;
+        height: auto;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .Podio {
+        width: 85%;
+        height: auto;
+        padding: 20px;
+        margin: 0;
+        text-align: center;
+    }
+
+    .Podio p {
+        padding: 5px 0;
+    }
+
+    /* UBICANOS */
+    .Total {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .Pelota img {
+        max-width: 300px;
+    }
+
+    /* CARRITO */
+    .carrito-grande {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .carrito-botones {
+        flex-direction: column;
+        gap: 15px;
+    }
+}

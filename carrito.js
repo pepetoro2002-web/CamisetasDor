@@ -18,9 +18,9 @@ function renderCarrito() {
 
   carrito.forEach((item) => {
     const li = document.createElement("li");
-    li.textContent = `${item.nombre} - €${item.precio.toFixed(2)} x${item.cantidad}`;
+    li.textContent = `${item.nombre} - x${item.cantidad} → €${item.precioTotal.toFixed(2)}`;
     listaCarrito.appendChild(li);
-    totalCompra += item.precio * item.cantidad;
+    totalCompra += item.precioTotal;
   });
 
   total.textContent = `Total: €${totalCompra.toFixed(2)}`;
@@ -29,11 +29,22 @@ function renderCarrito() {
 
 function agregarAlCarrito(nombre, precio) {
   const existente = carrito.find((item) => item.nombre === nombre);
+
   if (existente) {
+    // La primera vale 100%, las demás 50%
+    const precioExtra = precio * 0.5;
     existente.cantidad++;
+    existente.precioTotal += precioExtra;
   } else {
-    carrito.push({ nombre, precio, cantidad: 1 });
+    // Primera vez que se agrega
+    carrito.push({
+      nombre,
+      precio,              // precio original por referencia
+      cantidad: 1,
+      precioTotal: precio  // total hasta ahora
+    });
   }
+
   localStorage.setItem("carrito", JSON.stringify(carrito));
   renderCarrito();
   mostrarToast("✅ Producto agregado al carrito");
