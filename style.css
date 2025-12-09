@@ -1,0 +1,586 @@
+/*Navegacion y Body*/
+
+h1 {
+    font-size: 36px;
+    color: #DAA520;
+    padding-left: 15px;
+    text-shadow: 0 0 15px #000000;
+    margin: 0px;
+}
+
+h2 {
+    font-size: 14px;
+    color: #ffffff;
+    padding-left: 15px;
+    padding-bottom: 50px;
+    text-shadow: 0 0 15px rgb(0, 0, 0);
+    margin: 0px;
+}
+
+header img {
+    width: 115px;
+    padding-left: 21px;
+}
+
+.Izq {
+    display: flex;
+    align-items: center;
+    gap: 10x;
+}
+
+.Botones .local a {
+    color: #DAA520;
+}
+
+.Botones {
+    padding-top: 65px;
+}
+
+.Botones ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0px;
+    margin: 0px;
+    align-items: center;
+}
+
+.Botones a {
+    padding: 12px 20px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header {
+    height: 157px;
+    border-top: 1px solid #DAA520;
+    border-bottom: 1px solid #DAA520;
+    background-color: #363636;
+    display: flex;
+    justify-content: space-between;
+}
+
+body {
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: #000000;
+}
+
+/*Index*/
+
+.Camisetas img {
+    border: 1px solid #DAA520;
+}
+
+.Camisetas {
+    height: 390px;
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    gap: 100px;
+}
+
+.Descripciones {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.Descripcion {
+    height: 90px;
+    width: 220px;
+    background-color: #363636;
+    margin-top: 50px;
+    color: #ffffff;
+    border: 1px solid #DAA520;
+    border-radius: 28px;
+    padding: 20px;
+}
+
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+
+.Nombre,
+.Precio a {
+    color: #DAA520;
+    text-decoration: none;
+}
+
+.Precio {
+    list-style: none;
+    font-size: 20px;
+    padding-left: 150px;
+    margin: 0px;
+}
+
+/*Productos*/
+
+.CamisetasPro img {
+    border: 1px solid #DAA520;
+}
+
+.CamisetasPro {
+    height: 450px;
+    display: flex;
+    margin-top: 30px;
+    justify-content: right;
+    gap: 100px;
+    padding-right: 150px;
+}
+
+.DescripcionesPro {
+    display: flex;
+    justify-content: right;
+    gap: 100px;
+    padding-right: 140px;
+}
+
+.DescripcionPro {
+    height: 90px;
+    width: 265px;
+    background-color: #363636;
+    margin-top: 50px;
+    color: #ffffff;
+    border: 1px solid #DAA520;
+    border-radius: 28px;
+    padding: 20px;
+}
+
+.DescripcionesPro .Precio {
+    padding-left: 200px;
+}
+
+.Podio {
+    height: 300px;
+    width: 230px;
+    background-color: #363636;
+    margin-top: 50px;
+    margin-right: 100px;
+    color: #ffffff;
+    border: 1px solid #DAA520;
+    border-radius: 28px;
+    padding: 25px;
+}
+
+.Podio .Pri,
+.Seg,
+.Ter {
+    padding: 30px;
+}
+
+.Pri {
+    color: #DAA520;
+}
+
+.Seg {
+    color: #C0C0C0;
+}
+
+.Ter {
+    color: #CD7F32;
+}
+
+.Panorama {
+    margin-bottom: 200px;
+}
+
+/*Personal*/
+
+.Todo {
+    padding-top: 15px;
+    color: #ffffff;
+}
+
+.Tarjeta {
+    display: flex;
+}
+
+.Izquierda {
+    padding: 20px;
+}
+
+.Izquierda img {
+    height: 650px;
+    border: 1px solid #DAA520;
+}
+
+.Derecha {
+    flex: 1;
+    padding: 20px;
+}
+
+.NombreProp {
+    font-size: 50px;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 50px;
+    border: 1px solid #DAA520;
+    background-color: #363636;
+}
+
+.NombreProp span {
+    color: #DAA520;
+    font-weight: bold
+}
+
+.Palmares {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+
+.Contenido {
+    border: 1px solid #DAA520;
+    background-color: #363636;
+    padding: 10px;
+    width: 650px;
+    border-radius: 28px;
+}
+
+.Contenido h4 {
+    color: #DAA520;
+}
+
+.Pagar {
+    border: 1px solid #DAA520;
+    background-color: #363636;
+    text-align: center;
+    border-radius: 28px;
+}
+
+.Pagar h4 {
+    font-size: 20px;
+}
+
+.boton-comprar {
+    background-color: #363636;
+    border: 1px solid #DAA520;
+    color: #DAA520;
+    font-size: 40px;
+    margin-bottom: 20px;
+    padding: 10px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.boton-comprar:hover {
+    background-color: #DAA520;
+    color: #000000;
+}
+
+/*Ubicanos*/
+
+.Total {
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.Info {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.Info1 {
+    background-color: #363636;
+    border: 1px solid #DAA520;
+    border-radius: 20px;
+    padding: 25px 30px;
+    width: 300px;
+}
+
+.Info2 {
+    width: 300px;
+    text-align: center;
+    background-color: #363636;
+    border: 1px solid #DAA520;
+    border-radius: 20px;
+    padding: 25px 30px;
+}
+
+.Pelota img {
+    max-width: 600px;
+    width: 100%;
+    height: auto;
+    border: 1px solid #DAA520;
+}
+
+/*Carrito*/
+
+.pagina-carrito h2 {
+    font-size: 20px;
+}
+
+.pagina-carrito {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.carrito-grande {
+    display: inline-block;
+    text-align: left;
+    background-color: #363636;
+    border: 1px solid #DAA520;
+    border-radius: 20px;
+    padding: 20px 40px;
+    width: 500px;
+    margin-top: 30px;
+    box-shadow: 0 0 15px #000000;
+}
+
+.carrito-grande ul {
+    list-style: none;
+    padding: 0;
+}
+
+.carrito-grande li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #DAA520;
+    padding-bottom: 8px;
+    font-size: 18px;
+}
+
+.carrito-grande p {
+    font-size: 22px;
+    margin-top: 20px;
+    color: #DAA520;
+}
+
+.carrito-botones {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 25px;
+}
+
+.carrito button {
+    background-color: #000000;
+    border: 2px solid #DAA520;
+    color: #DAA520;
+    font-size: 18px;
+    padding: 12px 28px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.25s ease-in-out;
+    box-shadow: 0 0 10px #0000004d;
+}
+
+.carrito button:hover {
+    background-color: #DAA520;
+    color: #000;
+    box-shadow: 0 0 20px rgba(218, 165, 32, 0.7);
+    transform: scale(1.05);
+}
+
+.carrito button:active {
+    transform: scale(0.98);
+}
+
+#finalizar {
+    background-color: #DAA520;
+    color: #000000;
+}
+
+/* --- TOAST / NOTIFICACIÓN INFERIOR --- */
+#toast-container {
+    position: fixed;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2000;
+}
+
+.toast {
+    background-color: #363636;
+    color: #DAA520;
+    border: 1px solid #DAA520;
+    padding: 12px 25px;
+    border-radius: 20px;
+    font-size: 18px;
+    box-shadow: 0 0 15px rgba(218, 165, 32, 0.4);
+    opacity: 0;
+    transform: translateY(40px);
+    transition: all 0.3s ease;
+    margin-top: 10px;
+}
+
+.toast.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* ============================
+   RESPONSIVE — TABLET
+============================ */
+@media (max-width: 1024px) {
+
+    header {
+        flex-direction: column;
+        height: auto;
+        padding-bottom: 10px;
+    }
+
+    .Botones {
+        padding-top: 10px;
+    }
+
+    .Camisetas,
+    .Descripciones {
+        gap: 40px;
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .Camisetas img {
+        height: 200px;
+    }
+
+    .Precio {
+        padding-left: 80px;
+    }
+
+    .carrito-grande {
+        width: 80%;
+    }
+        .CamisetasPro {
+        height: auto;
+        justify-content: center;
+        padding-right: 0;
+        gap: 40px;
+        flex-wrap: wrap;
+    }
+
+    .DescripcionesPro {
+        justify-content: center;
+        padding-right: 0;
+        gap: 40px;
+        flex-wrap: wrap;
+    }
+
+    .Podio {
+        margin-right: 0;
+    }
+}
+
+/* ============================
+   RESPONSIVE — CELULAR
+============================ */
+@media (max-width: 768px) {
+
+    /* HEADER */
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header img {
+        width: 80px;
+    }
+
+    .Botones ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    /* INDEX */
+    .Camisetas {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        gap: 20px;
+    }
+
+    .Camisetas img {
+        width: 70%;
+        height: auto;
+    }
+
+    .Descripciones {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .Descripcion {
+        width: 80%;
+    }
+
+    .Precio {
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    /* PRODUCTOS */
+        .CamisetasPro {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        gap: 20px;
+        padding-right: 0;
+    }
+
+    .CamisetasPro img {
+        width: 70%;
+        max-width: 280px;
+        height: auto;
+    }
+
+    .DescripcionesPro {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding-right: 0;
+    }
+
+    .DescripcionPro {
+        width: 85%;
+        height: auto;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .Podio {
+        width: 85%;
+        height: auto;
+        padding: 20px;
+        margin: 0;
+        text-align: center;
+    }
+
+    .Podio p {
+        padding: 5px 0;
+    }
+
+    /* UBICANOS */
+    .Total {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .Pelota img {
+        max-width: 300px;
+    }
+
+    /* CARRITO */
+    .carrito-grande {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .carrito-botones {
+        flex-direction: column;
+        gap: 15px;
+    }
+}

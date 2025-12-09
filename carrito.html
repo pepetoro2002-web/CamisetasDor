@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrito - Camisetas D'or</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="Izq">
+      <img src="Imagenes/logo.png" alt="logo">
+      <div class="titulo">
+        <h1>Camisetas D'or</h1>
+        <h2>De los mejores, a los mejores</h2>
+      </div>
+    </div>
+    <nav class="Botones">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="ubicanos.html">Ubicanos</a></li>
+        <li class="local"><a href="carrito.html">Carrito</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="pagina-carrito">
+    <h2>Tu Carrito de Compras 🛒</h2>
+
+    <div id="contenido-carrito" class="carrito-grande">
+      <ul id="lista-carrito"></ul>
+      <p id="total">Total: €0.00</p>
+
+      <div class="carrito-botones">
+        <button id="vaciar">Vaciar carrito</button>
+        <button id="finalizar">Finalizar compra</button>
+      </div>
+    </div>
+  </main>
+
+  <script src="carrito.js"></script>
+</body>
+</html>
